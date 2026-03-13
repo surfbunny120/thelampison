@@ -325,6 +325,163 @@ h2 {
   line-height: 1.6;
 }
 
+/* Glossary sections */
+.glossary-section {
+  margin-bottom: 60px;
+}
+
+.glossary-section > h2 {
+  margin-bottom: 8px;
+}
+
+.section-note {
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 28px;
+}
+
+.coined-by {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 6px;
+}
+
+/* Page footer */
+.page-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #222;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.page-footer p {
+  margin-bottom: 4px;
+}
+
+/* Inline links within content */
+.inline-link {
+  color: #D4A017;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.inline-link:hover {
+  color: #fff;
+}
+
+/* Lists in experiment and essay content */
+.experiment-detail ul,
+.experiment-detail ol,
+.essay-body ul,
+.essay-body ol {
+  margin: 16px 0 16px 24px;
+}
+
+.experiment-detail li,
+.essay-body li {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.experiment-detail p,
+.essay-body p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* Writing index page */
+.writing-group {
+  margin-bottom: 50px;
+}
+
+.writing-group h2 {
+  margin-bottom: 16px;
+}
+
+.essay-link {
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 8px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ccc;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.essay-link:hover {
+  background: #1a1a1a;
+  border-color: #D4A017;
+  color: #fff;
+}
+
+.essay-link-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #e8e8e8;
+}
+
+.essay-link-desc {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Individual essay / letter pages */
+.essay-body {
+  margin-top: 40px;
+}
+
+.essay-body h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #D4A017;
+  text-transform: none;
+  letter-spacing: 0;
+  margin: 32px 0 12px;
+}
+
+.essay-body h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #999;
+  margin: 24px 0 8px;
+}
+
+.essay-body blockquote {
+  border-left: 2px solid #D4A017;
+  padding-left: 20px;
+  margin: 20px 0;
+  color: #999;
+  font-style: italic;
+}
+
+.essay-body em {
+  color: #ccc;
+}
+
+.essay-body strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.essay-byline {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #222;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   .writing-grid {

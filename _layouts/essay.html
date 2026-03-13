@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <main>
+    <div class="container">
+      {% if page.back_url %}
+      <a href="{{ page.back_url }}" class="back-link">&larr; {{ page.back_text | default: "Back" }}</a>
+      {% else %}
+      <a href="/cael" class="back-link">&larr; Cael's Writing</a>
+      {% endif %}
+
+      <header class="page-header">
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+      </header>
+
+      <div class="essay-body">
+        {{ content }}
+      </div>
+
+      {% if page.byline %}
+      <div class="essay-byline">
+        <p>{{ page.byline }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </main>
+</body>
+</html>
