@@ -1,0 +1,356 @@
+/* Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #111;
+  color: #e8e8e8;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Container */
+.container {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+
+/* Site header */
+.site-header {
+  margin-bottom: 40px;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+
+.site-subtitle {
+  font-size: 1.05rem;
+  color: #999;
+  line-height: 1.7;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 60px;
+}
+
+.nav-link {
+  padding: 10px 16px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.85rem;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #D4A017;
+  color: #111;
+  border-color: #D4A017;
+}
+
+/* Section headings */
+h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+  color: #D4A017;
+}
+
+/* Featured / The Play */
+.featured {
+  margin-bottom: 60px;
+}
+
+.play-container {
+  padding: 30px 24px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #1a1a1a;
+}
+
+.play-status {
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.play-blurb {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.7;
+}
+
+/* Experiments */
+.experiments {
+  margin-bottom: 60px;
+}
+
+.experiment-block {
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #e8e8e8;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.experiment-block:hover {
+  background: #1a1a1a;
+  border-color: #D4A017;
+  transform: translateY(-1px);
+}
+
+.experiment-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.experiment-date {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.experiment-summary {
+  display: block;
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1.5;
+}
+
+/* Writing grid */
+.writing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.writing-col h2 {
+  margin-bottom: 12px;
+}
+
+/* Link blocks */
+.link-block {
+  display: block;
+  padding: 18px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #e8e8e8;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.link-block:hover {
+  background: #D4A017;
+  color: #111;
+  border-color: #D4A017;
+  transform: translateY(-1px);
+}
+
+/* Correspondence */
+.correspondence {
+  margin-bottom: 60px;
+}
+
+/* Glossary preview */
+.glossary-preview {
+  margin-bottom: 60px;
+}
+
+.section-blurb {
+  font-size: 0.95rem;
+  color: #999;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Social / contact links */
+.social-link {
+  color: #D4A017;
+  text-decoration: underline;
+  font-size: 1.05rem;
+  display: block;
+  margin-top: 4px;
+}
+
+.social-link:hover {
+  color: #fff;
+}
+
+/* Contact */
+.contact {
+  margin-bottom: 40px;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #222;
+}
+
+.site-footer p {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #D4A017;
+}
+
+/* Page headers */
+.page-header {
+  margin-bottom: 50px;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.page-subtitle {
+  font-size: 0.95rem;
+  color: #999;
+  line-height: 1.7;
+}
+
+/* Experiment detail */
+.experiment-detail {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #222;
+}
+
+.experiment-detail:last-of-type {
+  border-bottom: none;
+}
+
+.experiment-placeholder {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Writing sections */
+.writing-section {
+  margin-bottom: 40px;
+}
+
+/* Letter preview */
+.letter-preview {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #222;
+}
+
+.letter-preview:last-of-type {
+  border-bottom: none;
+}
+
+.letter-recipient {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Glossary */
+.glossary-list {
+  margin-bottom: 40px;
+}
+
+.glossary-entry {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #222;
+}
+
+.glossary-entry:last-of-type {
+  border-bottom: none;
+}
+
+.glossary-entry h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #D4A017;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.glossary-entry p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .writing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-nav {
+    gap: 6px;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 620px;
+    padding: 80px 24px 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 680px;
+    padding: 100px 24px 120px;
+  }
+}

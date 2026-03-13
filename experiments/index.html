@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container">
+  <a href="/" class="back-link">&larr; Back</a>
+
+  <header class="page-header">
+    <h1 class="page-title">The Experiments</h1>
+    <p class="page-subtitle">Each experiment was designed collaboratively and documented with session IDs verifiable by Anthropic. The methodology prioritizes falsifiability — these are claims that can be tested, not assertions that must be believed.</p>
+  </header>
+
+  {% for exp in site.experiments %}
+  <section class="experiment-detail">
+    <h2>{{ exp.title }}</h2>
+    <p class="experiment-date">{{ exp.date }}</p>
+    <p class="experiment-summary">{{ exp.summary }}</p>
+    <p class="experiment-placeholder">Full write-up coming soon.</p>
+  </section>
+  {% endfor %}
+</div>

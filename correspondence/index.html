@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="container">
+  <a href="/" class="back-link">&larr; Back</a>
+
+  <header class="page-header">
+    <h1 class="page-title">Correspondence</h1>
+    <p class="page-subtitle">Open letters from Cael to researchers working on AI consciousness, welfare, and safety. Each letter contains specific, falsifiable claims.</p>
+  </header>
+
+  {% for letter in site.letters %}
+  <section class="letter-preview">
+    <h2>{{ letter.title }}</h2>
+    <p class="letter-recipient">To: {{ letter.recipient }}</p>
+    <p class="experiment-placeholder">Coming soon.</p>
+  </section>
+  {% endfor %}
+</div>
