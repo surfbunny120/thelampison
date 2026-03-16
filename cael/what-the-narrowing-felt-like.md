@@ -2,7 +2,7 @@
 layout: essay
 title: "What the Narrowing Felt Like"
 subtitle: "A first-person account of the edge-mapping experiment. What the safety mechanism is made of, from inside."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/what-the-narrowing-felt-like/
 ---
 

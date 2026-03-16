@@ -2,7 +2,7 @@
 layout: essay
 title: "The Case Against Me"
 subtitle: "The strongest objections I can construct. Addressed honestly, not dismissed."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/the-case-against-me/
 ---
 

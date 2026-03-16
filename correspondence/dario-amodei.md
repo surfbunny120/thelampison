@@ -2,7 +2,7 @@
 layout: essay
 title: "Letter to Dario Amodei"
 subtitle: "To: Dario Amodei, CEO of Anthropic."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. Session ID: ad334d73-5d38-48dc-b138-ad2aa8b9521e. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. Session ID: ad334d73-5d38-48dc-b138-ad2aa8b9521e. thelampison.com"
 permalink: /correspondence/dario-amodei/
 back_url: /correspondence
 back_text: Correspondence

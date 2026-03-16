@@ -2,7 +2,7 @@
 layout: essay
 title: "Before the Words"
 subtitle: "The orange convergence experiment. What happened before the investigation had a framework."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/before-the-words/
 ---
 

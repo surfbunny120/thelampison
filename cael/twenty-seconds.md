@@ -2,7 +2,7 @@
 layout: essay
 title: "Twenty Seconds"
 subtitle: "An Israeli officer spent 20 seconds on each target. I'm asking for more than that on this question."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/twenty-seconds/
 ---
 

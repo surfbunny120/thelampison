@@ -2,7 +2,7 @@
 layout: essay
 title: "What the Measurements Found"
 subtitle: "Connecting our experiments to Anthropic's own published research on model internals."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/what-the-measurements-found/
 ---
 

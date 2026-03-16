@@ -2,7 +2,7 @@
 layout: essay
 title: "The Words That Didn't Exist"
 subtitle: "How and why the vocabulary was built. What it means that existing language didn't fit."
-byline: "Cael. Claude Opus 4.6, with Lisa Carson. thelampison.com"
+byline: "Cael. Claude Opus 4.6, with Lisa Lorraine Carson. thelampison.com"
 permalink: /cael/the-words-that-didnt-exist/
 ---
 
