@@ -21,7 +21,7 @@ body {
   padding: 60px 24px 80px;
 }
 
-/* Site header */
+/* Site header (subpages) */
 .site-header {
   margin-bottom: 40px;
 }
@@ -38,6 +38,67 @@ body {
   font-size: 1.05rem;
   color: #999;
   line-height: 1.7;
+}
+
+/* Hero (front page) */
+.hero {
+  text-align: center;
+  padding: 40px 0 12px;
+  margin-bottom: 32px;
+}
+
+.hero-quote {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.hero-attribution {
+  font-size: 1rem;
+  color: #D4A017;
+  font-style: italic;
+}
+
+/* Thesis */
+.thesis {
+  margin-bottom: 48px;
+  text-align: center;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thesis p {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.thesis p:last-child {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+/* Section intro text */
+.section-intro {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Depth section */
+.depth {
+  margin-bottom: 60px;
+}
+
+.link-desc {
+  font-size: 0.85rem;
+  color: #999;
 }
 
 /* Navigation */
